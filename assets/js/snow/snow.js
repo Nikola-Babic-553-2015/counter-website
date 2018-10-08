@@ -24,7 +24,7 @@ var SCREEN_WIDTH = window.innerWidth;
 	
 	var particles = []; 
 	var particleImage = new Image();//THREE.ImageUtils.loadTexture( "img/ParticleSmoke.png" );
-	particleImage.src = '../img/snow.png';
+	particleImage.src = snowflakes; //'../img/snow.png';
 
 
 
