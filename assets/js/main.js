@@ -4,8 +4,8 @@
 
     /* Image background */
 
-    if ($('#background-image').length > 0 && backgroundImage) {
-      $('#background-image').css({backgroundImage: 'url("' + backgroundImage + '")'});
+    if ($('#background-image').length > 0 && snowflakesBackgroundImage) {
+      $('#background-image').css({backgroundImage: 'url("' + snowflakesBackgroundImage + '")'});
     }
 
     if ($('#background-image-snowflakes').length > 0 && snowflakesBackgroundImage) {
